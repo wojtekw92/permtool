@@ -11,7 +11,7 @@ Permtool with -b will convert ls style to number
 > 777
 
 Permtool with -d will convert number to ls style
-> :-$ permtool -d 777
+> permtool -d 777
 > rwxrwxrwx
 
 
@@ -19,7 +19,9 @@ How to make and install
 -----------------------
 
 Just clone it from github and run make
-> :-$ make all
+> make all
+
 if you want install it just for you
-> :-$ cp permtool ~/bin
+
+> cp permtool ~/bin
 
