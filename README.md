@@ -7,11 +7,13 @@ How to use
 ----------
 
 Permtool with -b will convert ls style to number
-> :-$ permtool -b rwxrwxrwx
+> permtool -b rwxrwxrwx
+
 > 777
 
 Permtool with -d will convert number to ls style
 > permtool -d 777
+
 > rwxrwxrwx
 
 
